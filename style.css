@@ -1,0 +1,25 @@
+div {
+  border: 2px solid black;
+}
+
+div.header {
+  background-color: aqua; 
+  text-align: center;
+}
+
+.column {
+  float: left;
+}
+
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 50%;
+}
+
+.footer {
+  background-color: azure;
+  text-align: right;
+}
