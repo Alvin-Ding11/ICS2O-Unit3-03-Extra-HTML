@@ -7,16 +7,15 @@ div.header {
   text-align: center;
 }
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .column {
   float: left;
-}
-
-.column.side {
-  width: 25%;
-}
-
-.column.middle {
-  width: 50%;
+  width: 33%;
 }
 
 .footer {
